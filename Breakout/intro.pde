@@ -6,7 +6,7 @@ void intro() {
   image(introbackground,0, 0);
   
   
-  //song =====================================================
+  //music =====================================================
   if (!introbgm.isPlaying()) {
     introbgm.rewind();
     introbgm.play();
